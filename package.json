@@ -1,0 +1,18 @@
+{
+  "name": "06-lil-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4",
+    "three": "^0.184.0",
+    "vite": "^8.0.9"
+  }
+}
