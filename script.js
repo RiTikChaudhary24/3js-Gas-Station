@@ -4,35 +4,35 @@ import { Sky } from "three/examples/jsm/Addons.js";
 
 const textureLoader = new THREE.TextureLoader();
 
-const floorARM = textureLoader.load("./textures/hangar_concrete_floor_arm_1k.jpg")
-const floorDiff = textureLoader.load("./textures/hangar_concrete_floor_diff_1k.jpg")
-const floorDisplacement = textureLoader.load("./textures/hangar_concrete_floor_disp_1k.jpg")
-const floorNormal = textureLoader.load("./textures/hangar_concrete_nor_gl_1k.jpg")
+const floorARM = textureLoader.load("/textures/hangar_concrete_floor_arm_1k.jpg")
+const floorDiff = textureLoader.load("/textures/hangar_concrete_floor_diff_1k.jpg")
+const floorDisplacement = textureLoader.load("/textures/hangar_concrete_floor_disp_1k.jpg")
+const floorNormal = textureLoader.load("/textures/hangar_concrete_floor_nor_gl_1k.jpg")
 
-const roofARM = textureLoader.load("./textures/concrete_tile_facade_arm_1k.jpg")
-const roofDiff = textureLoader.load("./textures/concrete_tile_facade_diff_1k.jpg")
-const roofDisplacement = textureLoader.load("./textures/concrete_tile_facade_disp_1k.jpg")
-const roofNormal = textureLoader.load("./textures/concrete_tile_facade_nor_dx_1k.jpg")
+const roofARM = textureLoader.load("/textures/concrete_tile_facade_arm_1k.jpg")
+const roofDiff = textureLoader.load("/textures/concrete_tile_facade_diff_1k.jpg")
+const roofDisplacement = textureLoader.load("/textures/concrete_tile_facade_disp_1k.jpg")
+const roofNormal = textureLoader.load("/textures/concrete_tile_facade_nor_dx_1k.jpg")
 
-const roofLightARM = textureLoader.load("./textures/terry_cloth_arm_1k.jpg")
-const roofLightDiff = textureLoader.load("./textures/terry_cloth_diff_1k.jpg")
-const roofLightDisplacement = textureLoader.load("./textures/terry_cloth_disp_1k.jpg")
-const roofLightNormal = textureLoader.load("./textures/terry_cloth_nor_gl_1k.jpg")
+const roofLightARM = textureLoader.load("/textures/terry_cloth_arm_1k.jpg")
+const roofLightDiff = textureLoader.load("/textures/terry_cloth_diff_1k.jpg")
+const roofLightDisplacement = textureLoader.load("/textures/terry_cloth_disp_1k.jpg")
+const roofLightNormal = textureLoader.load("/textures/terry_cloth_nor_gl_1k.jpg")
 
-const pillerARM = textureLoader.load("./textures/velour_velvet_arm_1k.jpg")
-const pillerDiff = textureLoader.load("./textures/velour_velvet_diff_1k.jpg")
-const pillerDisplacement = textureLoader.load("./textures/velour_velvet_disp_1k.jpg")
-const pillerNormal = textureLoader.load("./textures/velour_velvet_nor_dx_1k.jpg")
+const pillerARM = textureLoader.load("/textures/velour_velvet_arm_1k.jpg")
+const pillerDiff = textureLoader.load("/textures/velour_velvet_diff_1k.jpg")
+const pillerDisplacement = textureLoader.load("/textures/velour_velvet_disp_1k.jpg")
+const pillerNormal = textureLoader.load("/textures/velour_velvet_nor_dx_1k.jpg")
 
-const boxARM = textureLoader.load("./textures/waffle_pique_cotton_arm_1k.jpg")
-const boxDiff = textureLoader.load("./textures/waffle_pique_cotton_diff_1k.jpg")
-const boxDisplacement = textureLoader.load("./textures/waffle_pique_cotton_disp_1k.jpg")
-const boxNormal = textureLoader.load("./textures/waffle_pique_cotton_nor_dx_1k.jpg")
+const boxARM = textureLoader.load("/textures/waffle_pique_cotton_arm_1k.jpg")
+const boxDiff = textureLoader.load("/textures/waffle_pique_cotton_diff_1k.jpg")
+const boxDisplacement = textureLoader.load("/textures/waffle_pique_cotton_disp_1k.jpg")
+const boxNormal = textureLoader.load("/textures/waffle_pique_cotton_nor_dx_1k.jpg")
 
-const boxTopARM = textureLoader.load("./textures/plank_flooring_04_arm_1k.jpg")
-const boxTopDiff = textureLoader.load("./textures/plank_flooring_04_diff_1k.jpg")
-const boxTopDisplacement = textureLoader.load("./textures/plank_flooring_04_disp_1k.jpg")
-const boxTopNormal = textureLoader.load("./textures/plank_flooring_04_nor_dx_1k.jpg")
+const boxTopARM = textureLoader.load("/textures/plank_flooring_04_arm_1k.jpg")
+const boxTopDiff = textureLoader.load("/textures/plank_flooring_04_diff_1k.jpg")
+const boxTopDisplacement = textureLoader.load("/textures/plank_flooring_04_disp_1k.jpg")
+const boxTopNormal = textureLoader.load("/textures/plank_flooring_04_nor_dx_1k.jpg")
 
 boxDiff.colorSpace = THREE.SRGBColorSpace;
 
